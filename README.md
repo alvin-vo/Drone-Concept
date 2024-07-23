@@ -1,8 +1,9 @@
 # Senior-Proj-Drone-Concept
-Drone proof of concept. We'll establish a connection to 4 motors using PWM. Showing we can send a signal to spin motors and receive feedback from the motors.\
+## Project Description
+Develop a drone control system using the NXP FRDM-K64F Development Board as the primary flight controller. This project will focus on generating accurate PWM control through Arduino, utilizing SPI communication between the K64F and Arduino, tracking I/O via UART, and using ADC inputs to mimic flight control.\
 \
 ![](./assets/image4.png)
-# Goals
+## Goals
 ● Utilize the K64F as a ﬂight controller (The brain) for a  drone *concept*\
 ● Generate accurate PWM control through Arduino\
 ● Command the Arduino with K64F through SPI \
@@ -10,22 +11,22 @@ Drone proof of concept. We'll establish a connection to 4 motors using PWM. Show
 ● Use ADC input on the K64F\
 ● Mimic ﬂight control of a drone
 
-# Implementation
+## Implementation
 ![](./assets/image3.png)
-# Schematic
+## Schematic
 ![](./assets/image2.png)
-# Hardware
+## Hardware
 ● 1x NXP FRDM-K64F Development Board\
 ● 1x Arduino Uno R3 - receive signals from K64F and delivers that value as a pulse width to the ESC\
 ● 1x Joystick - control direction\
 ● 4x 3 phase motors - output\
 ● 4x 30A ESC’s - PWM to motor\
 ● 1x Potentiometer - control speed of motors
-# Software:
+## Software:
 ● Design Studio Integrated Development Environment (IDE) \
 ● Arduino (IDE)
-# Running the Program
-![](./assets/image1.png)\
+## Running the Program
+![](./assets/image1.png)
 <ol>
   <li>From the K64F you have control over what motors spin using the joystick. This simulates directional control. By itself with out speed control this is axis control.</li>
     <ul>
@@ -41,7 +42,7 @@ Drone proof of concept. We'll establish a connection to 4 motors using PWM. Show
   <li>You can monitor what the K64F and Arduino are transmitting and receiving. This helps with debugging and dialing what output the motors should be getting. </li>
 </ol>
 
-# Problems Encountered
+## Problems Encountered
 ### Hardware
 ● Power - insufﬁcient output- batteries were necessary for higher current needs of motors and esc’s\
 ● # of switches - going between 5 separate switches for motor control and 2\
@@ -53,7 +54,7 @@ Drone proof of concept. We'll establish a connection to 4 motors using PWM. Show
 ● Capturing communication - at times the arduino would receive a signal from k64f but do nothing with it. \
 ● Task management - while debugging certain motors would have slight delay before matching the command
 
-# Possible Future Implementation
+## Possible Future Implementation
 ### We have the mechanics of how a drone will run, but to actual have a drone on par with what you can buy out of the box we need to include several items:
 ● Gyroscope - angular velocity and drift\
 ● Accelerometer - acceleration and orientation\
@@ -62,7 +63,7 @@ Drone proof of concept. We'll establish a connection to 4 motors using PWM. Show
 ● Stabilization and Hovering for stable ﬂight\
 ● Simultaneous Localization And Mapping, in an automated configuration
 
-# Contributors
+## Contributors
 
 * **[Joseph Spracklen](https://github.com/joesprack)**
 

@@ -1,8 +1,9 @@
 # Drone-Concept
 ## Project Description
-Develop a drone control system using the NXP FRDM-K64F Development Board as the primary flight controller. This project will focus on generating accurate PWM control through Arduino, utilizing SPI communication between the K64F and Arduino, tracking I/O via UART, and using ADC inputs to mimic flight control.\
-\
-![](./assets/image4.png)
+Develop a drone control system using the NXP FRDM-K64F Development Board as the primary flight controller. This project will focus on generating accurate PWM control through Arduino, utilizing SPI communication between the K64F and Arduino, tracking I/O via UART, and using ADC inputs to mimic flight control.
+
+<img src="./assets/image4.png" alt="" width="849" height="307.5"/>
+
 ## Goals
 ● Utilize the K64F as a ﬂight controller (The brain) for a  drone *concept*\
 ● Generate accurate PWM control through Arduino\

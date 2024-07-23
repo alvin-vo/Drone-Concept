@@ -1,4 +1,4 @@
-# Senior-Proj-Drone-Concept
+# Drone-Concept
 ## Project Description
 Develop a drone control system using the NXP FRDM-K64F Development Board as the primary flight controller. This project will focus on generating accurate PWM control through Arduino, utilizing SPI communication between the K64F and Arduino, tracking I/O via UART, and using ADC inputs to mimic flight control.\
 \

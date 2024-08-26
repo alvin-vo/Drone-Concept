@@ -50,7 +50,7 @@ Develop a drone control system using the NXP FRDM-K64F Development Board as the 
 ● Signal interference - with the 5 switch option we saw interference most likely from the loose connection in the breadboard.
 
 ### Software
-● Processor Expert - trying several time to switch to PWM from the K^$F we kept dealing with necessary options not being available\
+● Processor Expert - trying several time to switch to PWM from the K64F we kept dealing with necessary options not being available\
 ● Motor direction & speed logic - making sure the right change in the motor speeds correspond to the correct direction.\
 ● Capturing communication - at times the arduino would receive a signal from k64f but do nothing with it. \
 ● Task management - while debugging certain motors would have slight delay before matching the command
